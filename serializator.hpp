@@ -1,5 +1,6 @@
-#pragma once
-//#ifdef __cpp_lib_ranges 
+#ifndef SERIALIZATOR_H
+#define SERIALIZATOR_H
+
 #ifdef __cpp_lib_ranges
     #include <concepts>
 
@@ -193,4 +194,6 @@
         return sz;
     }
 
-#endif
+#endif  //__cpp_lib_ranges
+
+#endif  //SERIALIZATOR_H
